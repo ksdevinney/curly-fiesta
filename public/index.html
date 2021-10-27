@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Hello</title>
 </head>
-<body class="bg-purple-200">
+<body class="bg-purple-200 justify-center">
     <!-- from the sarcastic text generator -->
-    <header class="headers">
-        <h1>wHaT dId YoU sAy?</h1>
-        <h3>It's hard to read tone online</h3>
+    <header class="headers text-pink-900">
+        <div class="grid-cols-6">
+            <h1>wHaT dId YoU sAy?</h1>
+            <h3>It's hard to read tone online</h3>
+        </div>
     </header>
     <main>
-        <form class="">
+        <form class="box-border p-4 border-4">
             <label for="input" class="">Text here</label><br>
             <input type="text" id="input-text" class="" required>
             <input type="submit" value="Submit" id="submit-button" class="">
         </form>
-        <div class="" tabindex="0" id="for-new-text">
-            <p id="output-text" class=""></p>
+        <div class="object-center" tabindex="0" id="for-new-text">
+            <p id="output-text" class="animate-pulse"></p>
         </div>
     </main>
     <footer>
