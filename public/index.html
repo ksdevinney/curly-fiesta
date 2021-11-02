@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Hello</title>
 </head>
-<body class="bg-purple-200 justify-center">
+<body class="bg-purple-200 justify-center p-3">
     <!-- from the sarcastic text generator -->
-    <header class="headers text-pink-900">
+    <header class="headers text-grey-800 p-2">
         <div class="grid-cols-6">
-            <h1>wHaT dId YoU sAy?</h1>
-            <h3>It's hard to read tone online</h3>
+            <h1 class="text-2xl text-center">wHaT dId YoU sAy?</h1>
+            <h3 class="text-lg text-center">It's hard to read tone online</h3>
         </div>
     </header>
     <main>
-        <form class="box-border p-4 border-4">
+        <form class="box-border p-4 border-4 border-pink-600">
             <label for="input" class="">Text here</label><br>
             <input type="text" id="input-text" class="" required>
             <input type="submit" value="Submit" id="submit-button" class="">
         </form>
-        <div class="object-center" tabindex="0" id="for-new-text">
+        <div class="object-center p-4" tabindex="0" id="for-new-text">
             <p id="output-text" class="animate-pulse"></p>
         </div>
     </main>
     <footer>
-        <h6 id="footer">© 2021 Katie Devinney | <a href="https://github.com/ksdevinney/sarcastic-text">GitHub</a></h6>
+        <h6 id="footer" class="fixed object-bottom">© 2021 Katie Devinney | <a href="https://github.com/ksdevinney/sarcastic-text">GitHub</a></h6>
     </footer>
     <script src="script.js"></script>
 </body>
